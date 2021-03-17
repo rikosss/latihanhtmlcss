@@ -1,0 +1,138 @@
+body {
+	background:url(backgroun.jpg);
+	background-repeat: no-repeat;
+	width: 100%;
+		font-family: "SEgoe UI", Arial, Sans-serif;
+	color:white;
+
+}
+
+.header{
+
+	display: flex;
+	width:30%;
+	height:130px;
+
+    background-color: #ec4646;
+    opacity: 0.8;
+
+    margin-left : 38%;
+
+    margin-bottom: 60px;
+    margin-top:	60px;
+
+}
+
+.header h1{
+	margin-left: 30px;
+	margin-bottom: 20px;
+
+}
+
+.header h4{
+	margin-left: 30px;
+	/*margin-top: x;*/
+}
+    
+#m{
+	padding-top: 10px;
+	padding-left: 100px;
+	width: 100px;
+	height: 100px;
+}
+
+.navbar{
+	background-color: #222831;
+	height: 50px;
+	opacity: 0.9;
+}
+
+.navbar .nav{
+	float: left;
+}
+
+.navbar .nav a{
+	margin-left: 10px;
+	  float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    padding-left: 37px;
+}
+
+.navbar .login a{
+	float: right;
+
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    padding-right: 30px;
+
+}
+
+.navbar a{
+	 display: block;
+    color: #f2f2f2;
+    /*text-align: center;*/
+    padding: 15px 10px;
+    text-decoration: none;
+	text-decoration: none;
+	color: white;
+}
+
+
+.navbar a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+.sidebar{
+	text-align: left;
+	width: 20%;
+	height:600px;
+	float: left;
+	background-color: #ec4646;
+	opacity: 0.8;
+}
+
+.sidebar ul li a:hover {
+    background-color: #ddd;
+    color: black;
+
+}
+ .sidebar ul li a {
+  
+    display: block;
+    color: #f2f2f2;
+    text-align: left;
+    padding: 15px 10px;
+    padding-right: 150px;
+    text-decoration: none;
+}
+
+.main{
+	background-image: url(mcd.png);
+	
+	width: 80%;
+	height: 600px;
+	background-color: white ;
+	opacity: 0.8;
+	float: right;
+}
+
+.clear{
+	clear: both;
+}
+
+.footer{
+	width: 100%;
+	height:50px;
+	background-color: #222831;
+	opacity:0.9;
+	padding-top: 20px;
+    text-align: center;
+}
